@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes } from '../../routes/router';
+import { Routes } from 'routes/router';
 
 function EditBook({ history }) {
   const onClick = () => history.push(Routes.books);
